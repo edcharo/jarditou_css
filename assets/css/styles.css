@@ -1,0 +1,63 @@
+header p {
+    font-size: xx-large;
+    text-align: center;
+    float: right;
+    padding-inline: 8cm;
+}
+
+li {
+    display: inline-block;
+}
+
+ul, a {
+    color: white;
+    background-color: black;
+    height: 60px;
+    line-height: 3.5em;
+}
+
+body {
+    width: 1110px;
+	margin: auto;
+}
+
+.colonne p{
+    margin-top: 0%;
+    margin-inline-end: 600px;
+}
+
+.conteneur {
+    display: flex;
+}
+
+.colonne {
+    background-color: rgb(201, 201, 201);
+    width: 313px;
+}
+
+@media screen and (max-width: 768px) 
+{
+    html {
+    font-size: 150%;
+    text-align: center;
+    }
+    div {
+        font-size: 150%
+    }
+    .colonne {
+        display: none;
+    }
+    li {
+        display: list-item;
+        font-size: xx-large;
+    }
+    ul {
+        height: 350px;
+    }
+    table {
+        font-size: 240%;
+    }
+    form {
+        font-size: 200%;
+    }
+}
